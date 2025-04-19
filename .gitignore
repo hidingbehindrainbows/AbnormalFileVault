@@ -1,5 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Security and Secrets
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.ca-bundle
+*.p12
+*.pfx
+.secret*
+secrets/
+credentials/
+.credentials
+.aws/
+.ssh/
+docker-compose.override.yml
+docker.env
+.dockercfg
+.docker/config.json
+
 # Python / Django
 __pycache__/
 *.py[cod]
