@@ -115,36 +115,3 @@ python manage.py test
 # Run specific test file
 python manage.py test files.tests
 ```
-
-## 🐛 Troubleshooting
-
-1. **Database Issues**
-   ```bash
-   # Reset database
-   rm db.sqlite3
-   python manage.py migrate
-   ```
-
-2. **Static Files**
-   ```bash
-   python manage.py collectstatic
-   ```
-
-3. **Permission Issues**
-   - Check file permissions in media directory
-   - Ensure write permissions for SQLite database directory
-
-## 📚 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Write and run tests
-4. Commit your changes
-5. Push to the branch
-6. Create a Pull Request
-
-## 📖 Documentation
-
-- API documentation available at `/api/docs/`
-- Admin interface at `/admin/`
-- Detailed API schema at `/api/schema/` 

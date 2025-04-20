@@ -26,6 +26,7 @@ Before you begin, ensure you have installed:
 
 ```bash
 git clone <https://github.com/hidingbehindrainbows/AbnormalFileVault.git>
+cd abnormal-file-hub
 ```
 
 ### Backend Setup
